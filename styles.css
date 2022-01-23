@@ -5,8 +5,8 @@ textarea{
   overflow:hidden;
   font-size: 45px;
   text-align: center;
-  maxlength:30;
 }
 body{
   align-items:center;
+  background-color: silver;
 }
