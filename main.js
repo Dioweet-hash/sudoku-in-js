@@ -18,8 +18,7 @@ function numberGenerator() {
   while(i<=81){
     let randNumber = Math.floor(Math.random() * 9)+1;
     document.getElementById(i).value = randNumber;
-    verticalChecker(randNumber)
-    if()
+    //verticalChecker(randNumber);
     numbers.push(randNumber);
     i++;
   }
