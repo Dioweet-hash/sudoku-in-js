@@ -18,8 +18,12 @@ function numberGenerator() {
   while(i<=81){
     let randNumber = Math.floor(Math.random() * 9)+1;
     document.getElementById(i).value = randNumber;
+<<<<<<< HEAD
     verticalChecker(randNumber)
     //if()
+=======
+    //verticalChecker(randNumber);
+>>>>>>> b9c754f525bb59fa642a9b7ac40fa0f1a925df2d
     numbers.push(randNumber);
     i++;
   }
